@@ -1,6 +1,13 @@
-{
-	"name": "Lampa",
-	"version": "latest",
-	"parameter": "content:{PREFIX}{domain}/msx/start.json",
-	"action": "link:{PREFIX}{domain}"
-}
+  "dictionary": "https://bu11ettrain.github.io/lampa/msx/lang/ru.json",
+   "template": {
+      "type": "separate",
+      "layout": "0,0,2,3",
+      "color": "msx-glass"
+   },
+   "items": [
+      {
+         "title":"Lampa",
+         "image": "https://bu11ettrain.github.io/lampa/msx-logo.png",
+         "action": "link:https://bu11ettrain.github.io/lampa/"
+      }
+   ]
